@@ -1,0 +1,7 @@
+{
+    "onReachBottomDistance": 50,
+    "navigationBarTitleText": "头像",
+    "usingComponents": {
+        "Loading": "/component/loading/loading"
+    }
+}

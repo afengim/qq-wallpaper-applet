@@ -1,0 +1,67 @@
+.loading_wrap{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    z-index: 9;
+}
+/**
+ * 列表加载动画
+ */
+.load_more {
+    background: #ffffff;
+    font-size: 16px;
+    color: #ff0101;
+    text-align: center;
+    padding: 50px 0;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.load_more>.loading {
+    display: table;
+    margin: 0 auto;
+    position: relative;
+}
+
+.load_more .loading view {
+    width: 5rpx;
+    height: 5rpx;
+    border-radius: 50%;
+    float: left;
+    margin: 10px;
+}
+
+.load_more .loading view:nth-child(1) {
+    background: #00f3ff;
+    animation: loadMore 1.5s linear infinite;
+}
+
+.load_more .loading view:nth-child(2) {
+    background: #243156;
+    animation: loadMore 2.5s linear infinite;
+}
+
+.load_more .loading view:nth-child(3) {
+    background: #ff006a;
+    animation: loadMore 2s linear infinite;
+}
+
+@keyframes loadMore {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+
+        transform: scale(8);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}

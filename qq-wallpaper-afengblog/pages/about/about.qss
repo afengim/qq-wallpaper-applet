@@ -1,0 +1,87 @@
+page{
+    background: #ffffff;
+}
+.about {
+    width: 100%;
+}
+.about_wrap{
+    margin-left: 80rpx;
+    border-left: 1px solid #F20F85;
+    position: relative;
+}
+
+.auther_img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 50%;
+    left: -30px;
+    top: 50rpx;
+}
+.img_{
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+    overflow: hidden;
+    background: url(https://mmbiz.qpic.cn/mmbiz_png/ibYQK5Jh03GOtZdvpHQfMDqGgFRRdo9MjXzEUO8pjY7CFkPQEaSsm5804cibp8rlteMW7VdEiaQLibKQkce9g9T5bg/0?wx_fmt=png) no-repeat center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 50%;
+}
+
+.authr_info{
+    padding: 10px;
+    margin: 30px 15px 0 30px;
+    background: #F20F85;
+    color: #ffffff;
+}
+.authr_info view:nth-child(1){
+    display: flex;
+}
+.authr_info view:nth-child(1) text:first-child{
+    display: block;
+    padding: 5px;
+    font-size: 35rpx;
+    background: #ffffff;
+    color: #F20F85;
+}
+.authr_info view:nth-child(1) text:last-child{
+    display: block;
+    padding: 5px;
+    font-size: 35rpx;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+.authr_info view:nth-child(2){
+    font-size: 30rpx;
+    margin-top: 10px;
+    line-height: 50rpx;
+}
+.about_tips{
+    margin-top: 15px;
+}
+.about_tips text{
+    display: block;
+    font-size: 30rpx;
+    line-height: 50rpx;
+}
+.authr_info image{
+    display: block;
+    width: 75%;
+    margin: 5px auto;
+}
+.authr_lx{
+    font-size: 30rpx;
+    margin-top: 10px;
+    line-height: 50rpx;
+}
+.authr_info > text{
+    font-size: 25rpx;
+    color: #f5f5f5;
+    display: block;
+    text-align: center;
+}

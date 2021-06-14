@@ -1,0 +1,23 @@
+.album{
+    width: 100%;
+}
+.album_name{
+    background: #ffffff;
+    padding: 100rpx 0;
+}
+.album_name > view{
+    font-size: 34rpx;
+    text-align: center;
+    line-height: 56rpx;
+    color: #ef498b;
+    padding: 0 30px;
+}
+.album_name > view:last-child{
+    font-size:30rpx;
+    text-align: center;
+    line-height: 56rpx;
+    color: #666;
+}
+.album_name > view:last-child > text{
+    color: #ef498b;
+}

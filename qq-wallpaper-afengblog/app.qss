@@ -1,0 +1,147 @@
+/* @import "./utils/weui.qss"; */
+view {
+    line-height: 1;
+}
+
+.clearfix:after {
+    content: "";
+    height: 0;
+    line-height: 0;
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+
+page {
+    position: relative;
+    background: #f1f0ed;
+    animation: pageUp .3s linear;
+}
+
+@keyframes pageUp {
+    from {
+        opacity: 0;
+        margin-top: 20px;
+    }
+
+    to {
+        opacity: 1;
+        margin-top: 0;
+    }
+}
+
+/**
+ * 首页底部
+ */
+.footer {
+    width: 100%;
+    padding: 50rpx 0;
+    text-align: center;
+    margin-top: 100rpx;
+    background: #ffffff;
+}
+
+.footer>.auther {
+    font-size: 16px;
+    color: #666;
+    line-height: 28px;
+
+}
+
+.footer>.setting {
+    padding: 20px 30px;
+    display: flex;
+}
+
+.setting button {
+    flex: auto;
+    display: block;
+    font-size: 16px;
+    color: #666;
+    line-height: 16px;
+    text-align: center;
+    border-right: 1px solid #ccc;
+    padding: 0;
+    border-radius: 0;
+}
+
+.setting button:last-child {
+    border: none;
+}
+
+
+/**
+ * 瀑布流列表
+ */
+
+.list_content {
+    margin: 20rpx;
+    text-align: justify;
+}
+
+.left,
+.right {
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+}
+
+.right {
+    float: right;
+}
+
+.wallpaper_item {
+    margin: 7rpx;
+    margin-bottom: 20rpx;
+    -moz-page-break-inside: avoid;
+    -webkit-column-break-inside: avoid;
+    break-inside: avoid;
+    background: #ffffff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.wallpaper_item image {
+    width: 100%;
+}
+
+.wallpaper_text {
+    padding: 10rpx 10rpx 15rpx;
+}
+
+.wallpaper_text>text {
+    line-height: 45rpx;
+    font-size: 28rpx;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.time_and_star {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 50rpx;
+}
+
+.time_and_star .text {
+    display: block;
+    font-size: 25rpx;
+    color: rgba(0, 0, 0, .7);
+    height: 100%;
+    line-height: 32rpx;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 10rpx;
+}
+
+.time_and_star .text:nth-child(1) {
+    flex: 0 0 70%;
+}
+
+.time_and_star .text icon {
+    display: block;
+    height: 25rpx;
+    margin-right: 5rpx;
+}

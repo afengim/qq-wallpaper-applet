@@ -1,0 +1,63 @@
+{
+	"projectid": "1111864447_bizhi",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false,
+		"nodeModules": true,
+		"uploadWithSourceMap": true,
+		"uglifyFileName": true,
+		"useAlphaLib": true,
+		"remoteDebugLogEnable": false,
+		"prefetch": false
+	},
+	"qqLibVersion": "1.28.0",
+	"compileType": "miniprogram",
+	"createTime": 1572485249642,
+	"accessTime": 1572485249642,
+	"packOptions": {
+		"ignore": []
+	},
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"qqappid": "1111864447",
+	"projectname": "%E7%8E%96%E6%9F%92%E7%9A%84%E5%A3%81%E7%BA%B8%E5%BA%93",
+	"scripts": {
+		"beforeCompile": "",
+		"beforePreview": "",
+		"beforeUpload": ""
+	},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": -1,
+					"name": "头像壁纸",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": ""
+				}
+			]
+		}
+	}
+}

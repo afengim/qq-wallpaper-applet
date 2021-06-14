@@ -1,0 +1,58 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/view/view",
+        "pages/wallPaper/wallPaper",
+        "pages/headImg/headImg",
+        "pages/detail/detail",
+        "pages/album/album",
+        "pages/more/more",
+        "pages/about/about",
+        "pages/cw/cw",
+        "pages/emoji/emoji",
+        "pages/user/user"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#FFA500",
+        "navigationBarTitleText": "玖柒小窝",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "color": "#Ffd44d",
+        "selectedColor": "#CAE2FF",
+        "backgroundColor": "#f24e4e00",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "/static/ico/index.png",
+                "selectedIconPath": "/static/ico/index_active.png"
+            },
+            {
+                "pagePath": "pages/wallPaper/wallPaper",
+                "text": "壁纸",
+                "iconPath": "/static/ico/clothes.png",
+                "selectedIconPath": "/static/ico/clothes_active.png"
+            },
+             {
+                "pagePath": "pages/emoji/emoji",
+                "text": "表情",
+                "iconPath": "/static/ico/cw.png",
+                "selectedIconPath": "/static/ico/cw_active.png"
+            },
+            {
+                "pagePath": "pages/cw/cw",
+                "text": "文案",
+                "iconPath": "/static/ico/writing.png",
+                "selectedIconPath": "/static/ico/writing_active.png"
+            },
+            {
+                "pagePath": "pages/headImg/headImg",
+                "text": "头像",
+                "iconPath": "/static/ico/more.png",
+                "selectedIconPath": "/static/ico/more_active.png"
+            }
+        ]
+    }
+}

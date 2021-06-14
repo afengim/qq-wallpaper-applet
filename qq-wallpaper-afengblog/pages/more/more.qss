@@ -1,0 +1,42 @@
+.more {
+    color:#268df7;
+    padding: 20px 20px 20px 50px;
+    background-size:100% 100%; background-image: url(https://www.helloimg.com/images/2021/06/13/CBjkIC.png)
+}
+
+.more navigator {
+    display: block;
+    padding: 20rpx 0;
+    border-bottom: 1rpx solid rgba(255, 0, 177, 0.3);
+}
+.more navigator:last-child{
+    border-bottom: none;
+}
+.more text{
+    display: block;
+    font-size: 14px;
+}
+
+.more view::before {
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin: 0px 12px 2px 0px;
+    border-radius: 6px;
+    
+}
+.more view:nth-child(1n)::before{
+    background: #d4237a;
+}
+.more view:nth-child(2n)::before{
+    background: #97d600;
+}
+.more view:nth-child(3n)::before{
+    background: #ea2f04;
+}
+.more navigator {
+    display: block;
+    font-size: 16px;
+    line-height: 70rpx;
+}

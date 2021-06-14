@@ -1,0 +1,72 @@
+.login {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,.6);
+    z-index: 99;
+}
+.login_wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 550rpx;
+    /* background-image: url(../../static/img/login.png) !important; */
+    background-position: top !important;
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.tips {
+    padding: 180rpx 0 80rpx;
+    text-align: center;
+}
+.tips .title {
+    font-size: 34rpx;
+    font-weight: 600;
+    padding: 0 0 20rpx;
+    text-shadow: 1px 1px 1px #ffffff;
+}
+.tips text {
+    font-size: 28rpx;
+    display: block;
+    line-height: 45rpx;
+    text-shadow: 1px 1px 1px #ffffff;
+}
+.button {
+    display: flex;
+    padding: 0 20rpx;
+    margin-top: 40rpx;
+}
+.button button {
+    flex: 1;
+    margin-right: 20rpx;
+    background: none;
+    outline: none;
+    border: 1px solid #F20F85;
+    box-sizing: border-box;
+    border-radius: 30px;
+    font-size: 28rpx;
+}
+.button button:last-child {
+    margin-right: 0;
+    background-color: #F20F85;
+    color: #ffffff;
+}
+@keyframes name{
+    from{
+        width: 0;
+        height: 0;
+        opacity: 0;
+    }
+    to{
+        width: 100%;
+        height: 100%;
+        opacity: 1;
+    }
+}

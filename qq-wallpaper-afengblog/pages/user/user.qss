@@ -1,0 +1,75 @@
+.user {
+    width: 100%;
+}
+.face {
+    width: 100%;
+    position: relative;
+}
+.info_bg{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-size: 100 auto;
+    filter: brightness(.7) blur(1px) saturate(1.1);
+    z-index: -1;
+}
+.full {
+    height: 160rpx;
+}
+.avatar {
+    width: 150rpx;
+    height: 150rpx;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 1px solid #aaffff;
+    position: relative;
+}
+
+.avatar image {
+    width: 100%;
+    height: 100%;
+}
+.info {
+    width: 100%;
+    padding: 50rpx 0 130rpx;
+    text-align: center;
+}
+.name {
+    font-size: 15px;
+    color: #ffffff;
+    padding-bottom: 20rpx;
+    text-shadow: 1px 1px 1px #2B2B2B;
+}
+.gender {
+    font-size: 15px;
+    text-shadow: 1px 1px 1px #2B2B2B
+}
+.nan {
+    color: #45D4FF;
+}
+.nv {
+    color: #FF99B7;
+}
+.like {
+    padding: 20rpx 0;
+    text-align: center;
+    font-size: 15px;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #2B2B2B;
+    background: rgba(255,255,255,.2)
+}
+.like text {
+    color: #ff007f;
+    padding-left: 10rpx;
+}
+
+.nolike {
+    padding: 100rpx 0 0;
+    text-align: center;
+    font-size: 15px;
+    color: #999999;
+}

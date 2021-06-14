@@ -1,0 +1,6 @@
+{
+    "onReachBottomDistance": 50,
+    "usingComponents": {
+        "Loading": "/component/loading/loading"
+    }
+}

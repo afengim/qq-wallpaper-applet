@@ -1,0 +1,7 @@
+{
+    "onReachBottomDistance": 50,
+    "navigationBarTitleText": "壁纸",
+    "usingComponents": {
+        "Loading": "/component/loading/loading"
+    }
+}
